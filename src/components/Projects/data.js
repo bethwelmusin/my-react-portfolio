@@ -22,7 +22,7 @@ const data = [
         image: "",
         title: "developers chatroom",
         desc: "This is a web based application that enables the developers to chat with the aim of discussing and educating one another on matters related to software development ",
-        link:"https://unsplash.com/"
+        link:"https://developer-chat-room.herokuapp.com"
       }
 
 

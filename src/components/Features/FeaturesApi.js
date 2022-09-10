@@ -16,7 +16,7 @@ const data = [
       image: "https://img.icons8.com/fluency-systems-regular/64/000000/cloud.png ",
       title: "cloud computing",
       desc: "AWS Certified Solutions Architect Associate ",
-      link:"https://unsplash.com/"
+     
     },
     {
       id: 4,
