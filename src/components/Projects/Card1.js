@@ -1,6 +1,6 @@
 import React from "react"
 
-const Card = (props) => {
+const Card1 = (props) => {
   return (
     <>
     
@@ -9,10 +9,15 @@ const Card = (props) => {
         <h2>{props.title}</h2>
         <p>{props.desc}</p>
         <h3><a href={props.link}>{props.link}</a></h3>
-       
+        <a href={props.link}>
+          <i className='fas fa-arrow-right'></i>
+        </a>
+        <div className='button f_flex mtop'>
+              </div>
       </div>
     </>
   )
 }
 
-export default Card
+export default Card1
+

@@ -14,12 +14,12 @@ const Portfolio = () => {
 
           <div className='content grid'>
             {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
+              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} link={value.link} />
             })}
 
-            {/*<div className='box btn_shadow '>
+           <div className='box btn_shadow '>
               <div className='img'>
-                  <img src='https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg' alt='' />
+                  <img src='https://ranbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg' alt='' />
               </div>
               <div className='category d_flex'>
                   <span>Development</span>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                   <i class='fas fa-arrow-right'></i>
                 </a>
               </div>
-            </div>*/}
+            </div>
           </div>
         </div>
       </section>

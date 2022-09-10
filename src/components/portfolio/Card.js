@@ -45,7 +45,7 @@ const Card = (props) => {
             </div>
             <div className='modal-text right'>
               <span>Web Development</span>
-              <h1>{props.title}</h1>
+              
               <p> I was part of the team that recreated pongshop site. Pong Shop is an online tech store  based in Kenya and owned by Pong Agencies Limited.It supplies customers with most IT equipment  from smartphones, tablets, laptops , Cameras, printers, networking devices, 
                 software and other ICT products at affordable prices accompanied by stellar customer service.
                 <br></br>
@@ -56,14 +56,23 @@ const Card = (props) => {
                 <button className='btn_shadow'>
                   LIKE THIS <i class='far fa-thumbs-up'></i>
                 </button>
-
               </div>
+
+              
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>
               </button>
             </div>
+            
           </div>
         </div>
+
+        
+
+
+
+
+
         
       )}
     </>
